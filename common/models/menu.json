@@ -1,0 +1,28 @@
+{
+  "name": "Menu",
+  "plural": "Menus",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "object",
+      "required": true
+    },
+    "timestamp": {
+      "type": "object",
+      "required": true
+    },
+    "event": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
