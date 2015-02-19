@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Menu": {
+    "dataSource": "bizi-builder-db",
+    "public": true
+  },
+  "Calendar": {
+    "dataSource": "bizi-builder-db",
+    "public": true
+  },
+  "Statistics": {
+    "dataSource": "bizi-builder-db",
+    "public": true
+  },
+  "ContactUs": {
+    "dataSource": "bizi-builder-db",
+    "public": true
+  },
+  "Owner": {
+    "dataSource": "bizi-builder-db",
+    "public": true
+  }
+}
